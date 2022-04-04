@@ -1,0 +1,268 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "user logs in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 79697600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "a user is on the login page",
+            "match": {
+              "location": "MyStepdefs.a_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5309243600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "a user enters the username and password and clicks login",
+            "match": {
+              "location": "MyStepdefs.a_user_enters_the_and_and_clicks_login()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 20043661000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepdefs.settingUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Successful booking of a hotel",
+        "description": "",
+        "id": "book-hotel-feature;successful-booking-of-a-hotel",
+        "after": [
+          {
+            "result": {
+              "duration": 3825255400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepdefs.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 42274483400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "a user populates fields in the search page and clicks continue",
+            "match": {
+              "location": "MyStepdefs.a_user_populates_fields_in_the_search_page_and_clicks_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3779993700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "a user selects a hotel from the selection page and click continue",
+            "match": {
+              "location": "MyStepdefs.a_user_selects_a_hotel_from_the_selection_page_and_click_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6430278100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "a user populates the book with valid data and clicks confirm",
+            "match": {
+              "location": "MyStepdefs.a_user_populates_the_book_with_valid_data_and_clicks_confirm()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22479800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "a order is generated and the booking is successful",
+            "match": {
+              "location": "MyStepdefs.a_order_is_generated_and_the_booking_is_successful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@BOOKING"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "user logs in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 44100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "a user is on the login page",
+            "match": {
+              "location": "MyStepdefs.a_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5236190700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "a user enters the username and password and clicks login",
+            "match": {
+              "location": "MyStepdefs.a_user_enters_the_and_and_clicks_login()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9127938500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepdefs.settingUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Delete an existing booking",
+        "description": "",
+        "id": "book-hotel-feature;delete-an-existing-booking",
+        "after": [
+          {
+            "result": {
+              "duration": 3859616200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepdefs.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3559833900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Clicks on Booked Itinerary",
+            "match": {
+              "location": "MyStepdefs.clicks_on_Booked_Itinerary()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1432617100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "enters order number   for a recently booked existing order and clicks on search",
+            "match": {
+              "location": "MyStepdefs.entersOrderNumberForARecentlyBookedExistingOrderAndClicksOnSearch()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3178210600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "a user clicks on cancel selected",
+            "match": {
+              "location": "MyStepdefs.aUserClicksOnCancelSelected()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5677410500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "a user search the recently deleted order",
+            "match": {
+              "location": "MyStepdefs.aUserSearchTheRecentlyDeletedOrder()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18394200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the orderNumber is not displayed",
+            "match": {
+              "location": "MyStepdefs.theOrderNumberIsNotDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@DELETE"
+          }
+        ]
+      }
+    ],
+    "name": "Book hotel Feature",
+    "description": "",
+    "id": "book-hotel-feature",
+    "keyword": "Feature",
+    "uri": "src/test/java/training/features/BookHotel.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@run1"
+      }
+    ]
+  }
+]
